@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 import "./App.css";
 import Contact from "./components/Contact";
+import Header from "./components/Header";
 
 class App extends Component {
-  render() {
-    const names = "hello";
+  render(props) {
     return (
       <div className="App">
-        <h1>React app Awesome {names}</h1>
+        <Header />
         <Contact />
       </div>
     );
